@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Pribadi</title>
+</head>
+
+<body>
+    <header>
+        <h1>Portofolio Pribadi</h1>
+        <img src="Gambar/11.jfif" alt="Foto Profil"
+            style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+        <a href="#listtamu">List Tamu</a>
+
+
+    </nav>
+    <main>
+        <section id="about">
+            <article>
+                <h2>Tentang Saya</h2>
+                <p>Halo, saya Maulana Mukhamad Ibrahim, seorang mahasiswa Program Studi Sistem Informasi yang memiliki
+                    ketertarikan besar dalam bidang desain, editing, dan visual kreatif. Saat ini saya juga sedang
+                    mendalami tata kelola Teknologi Informasi untuk memperluas pemahaman saya dalam manajemen dan
+                    pengembangan sistem yang efektif. Saya terus mengembangkan keterampilan di bidang IT untuk siap
+                    berkontribusi di dunia profesional.</p>
+            </article>
+
+            <article>
+                <h2>Keterampilan Saya</h2>
+                <p>1. Editing Video</p>
+                <p>2. UI/UX Desainer</p>
+                <p>3. Web Developer</p>
+            </article>
+
+            <article>
+                <h2>Hobi Saya</h2>
+                <p>1. Dengerin Musik</p>
+                <p>2. Sepak Bola</p>
+                <p>3. Olah Raga</p>
+            </article>
+
+        </section>
+        <section id="projects">
+            <article>
+                <h2>Proyek/Karya</h2>
+                <p>Berikut beberapa proyek yang pernah saya kerjakan.</p>
+                <img src="Gambar/Poster UCC 1.png" alt="Eror" width="500" height="600"> &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;
+                <video src="Video/Presentasi Teknologi 3D Futuristik Ungu Putih (1).mp4" type="video/mp4" width="400"
+                    height="500" controls>
+                    Your browser does not support the video tag.</video> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <audio src="Audio/1.1 (1).mp3" type="audio/mp3" controls> Your browser does not support the audio tag.
+                </audio>
+        </section>
+        </section>
+        <section id="contact">
+            <article>
+                <h2>Kontak</h2>
+                <p>Anda dapat menghubungi saya melalui email di maulana.ibrahim23@student.uisi.ac.id untuk informasi
+                    lebih lanjut atau kerja sama.</p>
+            </article>
+
+            <article>
+                <h3>Input Data Kamu</h3>
+                <p>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <button type="submit">Kirim</button>
+                    </p>
+                    <p>
+                    <form>
+                        <label for="pesan">Pesan:</label>
+                        <input type="pesan" id="pesan" name="pesan">
+                        <button type="submit">Kirim</button>
+                        </p>
+            </article>
+        </section>
+
+            <section id="listtamu">
+                <article>
+                    <h2>Buku Tamu</h2>
+                    <p>Silakan isi nama, status, dan pesan Anda:</p>
+                  
+                    <form id="guestForm" class="container">
+                      <input type="text" id="name" placeholder="Nama" required>
+                      <input type="text" id="status" placeholder="Status (Misalnya: Mahasiswa)" required>
+                      <textarea id="pesan" placeholder="Pesan" required></textarea>
+                      <button type="submit">Tambah</button>
+                    </form>
+                  
+                    <h3>Daftar Tamu:</h3>
+                    <ul id="guestList"></ul>
+                </article>
+
+                <article>
+                    <h3>Fakta Menarik tentang Dunia</h3>
+                    <p id="cat-fact">Memuat fakta...</p>
+  
+                </article>
+              </section>
+              
+          
+        
+    </main>
+    <footer>
+        <p> Hak Cipta @Maulana Mukhamad Ibrahim </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
